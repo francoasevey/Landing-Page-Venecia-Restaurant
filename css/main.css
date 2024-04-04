@@ -263,7 +263,7 @@ ul{
     height: 40px;
     transform: translate(0, -50%);
     z-index: 100;
-    box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 10px #ffffff;
+    box-shadow: inset 6px 6px 7px #dadada, -6px -6px 10px #ffffff;
     border-radius: 10px;
     padding: 0 8px;
   }
@@ -324,7 +324,7 @@ ul{
   .main-navigation .menu .sub-menu{
     max-width: 220px;
     opacity: 1;
-    visibility: hidden;
+    visibility: visible;
     display: none;
   }
 }
