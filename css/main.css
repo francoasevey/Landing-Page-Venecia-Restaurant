@@ -357,6 +357,25 @@ ul{
     height: auto !important;
   }
 }
+@media (max-width: 575px){
+  .container, .container-fluid{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 400px){
+  .container, .container-fluid{
+    padding: 0 15px;
+  }
+  .header-btn{
+    margin-right: 56px;
+  }
+  .menu-toggle{
+    right: 15px;
+  }
+  .site-header .container .row .col-lg-2{
+    left: 15px;
+  }
+}
 /*============================================================*/
 /*============================================================*/
 /*============================================================*/
