@@ -330,6 +330,15 @@ ul{
     visibility: visible;
     display: none;
   }
+  .main-navigation .menu .sub-menu li{
+    margin-bottom: 5px;
+  }
+  .main-navigation .menu li:last-child{
+    margin: 0;
+  }
+  .main-navigation .menu .sub-menu li a{
+    color: #ff8243;
+  }
 }
 /*============================================================*/
 /*============================================================*/
