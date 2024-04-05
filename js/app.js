@@ -1,11 +1,11 @@
 $(document).ready(function ($) {
   "use strict";
 
-  jQuery(".menu-toggle").click(function() {
+  jQuery(".menu-toggle").click(function () {
     jQuery(".main-navigation").toggleClass("toggled");
   });
 
-  jQuery(".header-menu ul li a").click(function() {
+  jQuery(".header-menu ul li a").click(function () {
     jQuery(".main-navigation").removeClass("toggled");
   });
 

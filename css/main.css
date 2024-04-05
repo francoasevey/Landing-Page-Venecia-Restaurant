@@ -213,6 +213,9 @@ ul{
   .header-right{
     margin-left: 10px;
   }
+  .main-navigation .menu li{
+    margin: 0;
+  }
   .main-navigation .menu li a{
     padding: 4px 15px;
     font-size: 15px;
