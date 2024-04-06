@@ -24,4 +24,6 @@ $(document).ready(function ($) {
   function myFunction(){
     elementFirst.classList.toggle('sticky_head');
   }
+  const scene = $(".js-parallax-scene").get(0);
+  const parallaxInstance = new Parallax(scene);
 });
