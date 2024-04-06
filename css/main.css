@@ -376,6 +376,25 @@ ul{
     left: 15px;
   }
 }
+@media screen and (min-width: 992px){
+  #viewport{
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #js-scroll-content{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
 /*============================================================*/
 /*============================================================*/
 /*============================================================*/
