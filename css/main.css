@@ -178,6 +178,11 @@ ul{
 .uil{
   color: #ff8243;
 }
+.main-banner{
+  padding: 200px 0 300px;
+  min-height: 100vh;
+  position: relative;
+}
 /*===========================PARALLAX=================================*/
 .js-parallax-scene{
   position: absolute;
