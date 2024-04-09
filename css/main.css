@@ -616,7 +616,7 @@ p{
 }
 @media screen and (min-width: 992px){
   #viewport{
-    overflow-x: hidden;
+    overflow: auto;
     position: fixed;
     height: 100%;
     width: 100%;
