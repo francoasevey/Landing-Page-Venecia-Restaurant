@@ -1,28 +1,28 @@
 $(document).ready(function ($) {
   "use strict";
-  jQuery(".filters").on("click", function (){
+  jQuery(".filters").on("click", function () {
     jQuery("#menu-dish").removeClass("bydefault_show");
-  });
-  $(function (){
-    const filterList = {
-      init: function (){
-        $("menu-dish").mixItUp({
-          selectors: {
-            target: ".dish-box-wp",
-            filter: ".filter",
-          },
-          animation:{
-            effects: "fade",
-            easing: "ease-in-out",
-          },
-          load: {
-            filter: ".all, .breakfast, .lunch, .dinner",
-          },
-        });
-      },
+});
+$(function () {
+    var filterList = {
+        init: function () {
+            $("#menu-dish").mixItUp({
+                selectors: {
+                    target: ".dish-box-wp",
+                    filter: ".filter",
+                },
+                animation: {
+                    effects: "fade",
+                    easing: "ease-in-out",
+                },
+                load: {
+                    filter: ".all, .breakfast, .lunch, .dinner",
+                },
+            });
+        },
     };
     filterList.init();
-  })
+});
 
   jQuery(".menu-toggle").click(function () {
     jQuery(".main-navigation").toggleClass("toggled");
