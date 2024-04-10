@@ -416,14 +416,16 @@ p{
   background: #f16620;
 }
 /*=============================MNEU BTN===============================*/
-.repeat-img{
+.repeat-img {
   background-size: contain;
   background-repeat: repeat;
 }
-.menu-tab-wp{
+
+.menu-tab-wp {
   margin-bottom: 80px;
 }
-.menu-tab ul{
+
+.menu-tab ul {
   padding: 10px;
   display: inline-block;
   border-radius: 60px;
@@ -432,7 +434,8 @@ p{
   position: relative;
   z-index: 2;
 }
-.menu-tab ul li, .menu-tab ul .filter-active{
+
+.menu-tab ul li, .menu-tab ul .filter-active {
   display: inline-flex;
   text-transform: capitalize;
   font-size: 18px;

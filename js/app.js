@@ -5,17 +5,17 @@ $(document).ready(function ($) {
   });
   $(function (){
     const filterList = {
-      init : function (){
+      init: function (){
         $("menu-dish").mixItUp({
-          selectors : {
-            target : ".dish-box-wp",
-            filter : ".filter",
+          selectors: {
+            target: ".dish-box-wp",
+            filter: ".filter",
           },
-          animation :{
-            effects : "fade",
-            easing : "ease-in-out",
+          animation:{
+            effects: "fade",
+            easing: "ease-in-out",
           },
-          load : {
+          load: {
             filter: ".all, .breakfast, .lunch, .dinner",
           },
         });
