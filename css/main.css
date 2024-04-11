@@ -447,7 +447,24 @@ p{
   justify-content: center;
   align-items: center;
 }
+.filter-active {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  min-height: 50px;
+  z-index: -1;
+}
 
+.menu-tab ul li img {
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.menu-tab ul .filter-active {
+  color: #ffffff;
+  background: linear-gradient(145deg, #e3a92b, #ffc933);
+}
 /*============================MEDIA================================*/
 @media screen and (min-width: 992px){
   .menu-toggle{
