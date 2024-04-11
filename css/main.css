@@ -465,6 +465,29 @@ p{
   color: #ffffff;
   background: linear-gradient(145deg, #e3a92b, #ffc933);
 }
+
+.menu-list-row .bydefault_show .dish-box-wp {
+  display: inline-block !important;
+}
+
+.dish-box-wp {
+  display: none;
+}
+
+.dish-box {
+  border-radius: 30px;
+  background: linear-gradient(145deg, #ececec, #ffffff);
+  box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
+  display: flow-root;
+  padding: 0 30px 40px;
+  padding-top: 0;
+  margin: 130px 0 30px;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.dish-box:hover {
+  transform: scale(1.03);
+}
 /*============================MEDIA================================*/
 @media screen and (min-width: 992px){
   .menu-toggle{
