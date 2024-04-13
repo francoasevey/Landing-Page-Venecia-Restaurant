@@ -537,7 +537,7 @@ p{
 .dish-info ul li b{
   font-weight: 600;
 }
-.dish-info .dist-bottom-row{
+.dish-info, .dist-bottom-row{
   padding: 0 30px;
 }
 .dish-info{
@@ -552,7 +552,7 @@ p{
 .dist-bottom-row ul li b{
   font-size: 30px;
 }
-.dish-add-bnt{
+.dish-add-btn{
   width: 40px;
   height: 40px;
   border: none;
@@ -562,11 +562,11 @@ p{
   background: linear-gradient(145deg, #ffc954, #ffbc00);
   box-shadow: inset 4px 4px 8px #d6a029, inset -4px -4px 8px #ffd837;
 }
-.dish-add-bnt i{
+.dish-add-btn i{
   color: #ffffff;
   font-size: 22px;
 }
-.dish-add-bnt:hover{
+.dish-add-btn:hover{
   background: linear-gradient(145deg, #e3a92b, #ffc933);
 }
 /*============================MEDIA================================*/
