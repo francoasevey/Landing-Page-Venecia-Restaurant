@@ -86,6 +86,15 @@ jQuery(window).on('load', function (){
         a: targets[activeTab].offsetLeft,
         width: targets[activeTab].offsetWidth,
       });
+      
+      animation.to(targets[old], {
+        color: "#0d0d25",
+        ease: "none"
+      }, 0);
+      animation.to(targets[activeTab], {
+        color: "#fff",
+        ease: "none"
+      }, 0);
     }
   }
 })
