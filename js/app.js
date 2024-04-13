@@ -50,3 +50,31 @@ $(function () {
   const scene = $(".js-parallax-scene").get(0);
   const parallaxInstance = new Parallax(scene);
 });
+
+jQuery(window).on('load', function (){
+  $('body').removeClass('body-fixed');
+
+  let targets = document.querySelectorAll(".filter");
+  let activeTab = 0;
+  let old = 0;
+  let dur = 0.4;
+  let animation
+
+  for(let i = 0; i < targets.length; i++){
+    targets[i].index = i;
+    targets[i].addEventListener("click", moveBar);
+  }
+
+  gsap.set(".filter-active", {
+    a: targets[0].offsetLeft,
+    width: targets[0].offsetWidth
+  });
+
+  function moveBar(){
+    if(this.index != activeTab){
+      if(animation && animation.isActive()){
+        animation.progress(1);
+      }
+    }
+  }
+})
