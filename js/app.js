@@ -75,6 +75,17 @@ jQuery(window).on('load', function (){
       if(animation && animation.isActive()){
         animation.progress(1);
       }
+      animation = gsap.timeline({
+        default : {
+          duration : 0.4
+        }
+      });
+      old = activeTab;
+      activeTab = this.index;
+      animation.to(".filter-active",{
+        a: targets[activeTab].offsetLeft,
+        width: targets[activeTab].offsetWidth,
+      });
     }
   }
 })
