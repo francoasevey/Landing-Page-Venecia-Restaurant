@@ -528,6 +528,47 @@ p{
 .dist-bottom-row ul li:last-child{
   text-align: right;
 }
+.dish-info ul li p{
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+.dish-info ul li b{
+  font-weight: 600;
+}
+.dish-info .dist-bottom-row{
+  padding: 0 30px;
+}
+.dish-info{
+  border-bottom: 2px solid rgb(204 204 204 / 30%);
+  margin: 30px 0 30px;
+  padding-bottom: 30px;
+}
+.dist-bottom-row ul li{
+  display: flex;
+  align-items: center;
+}
+.dist-bottom-row ul li b{
+  font-size: 30px;
+}
+.dish-add-bnt{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: 0.3s;
+  background: linear-gradient(145deg, #ffc954, #ffbc00);
+  box-shadow: inset 4px 4px 8px #d6a029, inset -4px -4px 8px #ffd837;
+}
+.dish-add-bnt i{
+  color: #ffffff;
+  font-size: 22px;
+}
+.dish-add-bnt:hover{
+  background: linear-gradient(145deg, #e3a92b, #ffc933);
+}
 /*============================MEDIA================================*/
 @media screen and (min-width: 992px){
   .menu-toggle{
