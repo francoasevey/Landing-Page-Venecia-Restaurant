@@ -66,7 +66,7 @@ jQuery(window).on('load', function (){
   }
 
   gsap.set(".filter-active", {
-    a: targets[0].offsetLeft,
+    x: targets[0].offsetLeft,
     width: targets[0].offsetWidth
   });
 
@@ -83,7 +83,7 @@ jQuery(window).on('load', function (){
       old = activeTab;
       activeTab = this.index;
       animation.to(".filter-active",{
-        a: targets[activeTab].offsetLeft,
+        x: targets[activeTab].offsetLeft,
         width: targets[activeTab].offsetWidth,
       });
       
