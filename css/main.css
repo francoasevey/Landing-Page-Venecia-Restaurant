@@ -706,7 +706,63 @@ p{
   background: #fcbc30;
   width: 30px;
 }
-/*============================MEDIA================================*/
+/*============================TEAM SLIDER================================*/
+.team-slider{
+  position: relative;
+}
+.team-box{
+  padding: 20px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #ececec, #ffffff);
+  box-shadow: 28px 28px 45px #e6e6e6, -28px -28px 45px #ffffff;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+.team-box:hover{
+  transform: scale(1.03);
+}
+.team-img{
+  width: 100%;
+  height: 480px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 9px 9px 18px rgb(194, 194, 194 / 0.5), -9px -9px 18px rgb(255, 255, 255 / 0.5);
+}
+.team-box .h3-title{
+  text-transform: capitalize;
+  color: #0d0d25;
+  font-weight: 600;
+}
+.social-icon{
+  margin: 15px 0px 10px;
+}
+.social-icon ul li{
+  display: inline-block;
+  margin: 0 6px;
+}
+.social-icon ul li:last-child{
+  margin-right: 0;
+}
+.social-icon ul li:first-child{
+  margin-right: 0;
+}
+.social-icon ul li a{
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 4px 4px 8px #d0d0d0, -4px -4px 8px #ffffff;
+  color: #0d0d25;
+  font-size: 19px;
+}
+.social-icon ul li a:hover{
+  background: #ff8243;
+}
+.social-icon ul li a:hover i{
+  color: #ffffff !important;
+}
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
