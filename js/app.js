@@ -9,16 +9,25 @@ $(document).ready(function ($) {
       delay : 3000,
       disableOnInteraction : false,
     },
-    speed : 2000,
-    effect : "coverflow",
-    coverflowEffect : {
-      rotate : 3,
-      stretch : 2,
-      depth : 100,
-      modifier : 5,
-      sildesShadows : false,
+    speed: 2000,
+    effect: "coverflow",
+    coverflowEffect: {
+      rotate: 3,
+      stretch: 2,
+      depth: 100,
+      modifier: 5,
+      sildeShadows: false,
     },
-  })
+    loopAdditionSlides: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el : ".swiper-pagination",
+      clickable : true,
+    },
+  });
 
   jQuery(".filters").on("click", function () {
     jQuery("#menu-dish").removeClass("bydefault_show");
