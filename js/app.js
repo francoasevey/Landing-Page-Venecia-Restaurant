@@ -1,5 +1,25 @@
 $(document).ready(function ($) {
   "use strict";
+
+  let bookTable = new Swiper(".book-table-img-slider", {
+    slidesPerView : 1,
+    spaceBetween : 20,
+    loop : true,
+    autoplay : {
+      delay : 3000,
+      disableOnInteraction : false,
+    },
+    speed : 2000,
+    effect : "coverflow",
+    coverflowEffect : {
+      rotate : 3,
+      stretch : 2,
+      depth : 100,
+      modifier : 5,
+      sildesShadows : false,
+    },
+  })
+
   jQuery(".filters").on("click", function () {
     jQuery("#menu-dish").removeClass("bydefault_show");
 });
