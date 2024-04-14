@@ -576,7 +576,20 @@ p{
   line-height: 72px;
   margin-bottom: 30px;
 }
-/*============================MEDIA================================*/
+/*============================BOOK TABLE================================*/
+.book-table{
+  overflow: hidden;
+}
+.book-table-shape img{
+  position: absolute;
+  top: -10px;
+  right: 73%;
+  width: 540px;
+}
+.book-table-shape.book-table-shape2 img{
+  left: 74%;
+  transform: scale(-1,1);
+}
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
