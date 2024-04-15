@@ -32,7 +32,7 @@ img{
   border-bottom: 1px solid transparent;
 }
 .site-header.sticky_head{
-  background: rgb(255, 255, 255 / 80%);
+  background: rgb(255 255 255 / 80%);
   padding: 20px 0;
   border-color: #f2f2f2;
   backdrop-filter: blur(20px);
@@ -157,7 +157,7 @@ ul{
   height: 40px;
 }
 .form-input::placeholder{
-  color: rgba(70, 69, 71 / 0.7);
+  color: rgba(70 69 71 / 0.7);
 }
 .form-input{
   width: 100%;
@@ -363,7 +363,7 @@ p{
   background-size: cover;
   background-position: center;
   border-radius: 40px;
-  box-shadow: 0 0 20px rgba(36 39 37 / 30%);
+  box-shadow: 0 0 20px rgb(36 39 37 / 30%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -588,7 +588,7 @@ p{
 }
 .book-table-shape.book-table-shape2 img{
   left: 74%;
-  transform: scale(-1,1);
+  transform: scale(-1, 1);
 }
 .book-table-info{
   margin: 30px 0 20px;
@@ -620,7 +620,7 @@ p{
   margin-bottom: 25px;
   background: #f3f3f5;
   box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
-  color: #ff8234;
+  color: #ff8243;
 }
 .call-now a{
   font-size: 32px;
@@ -640,7 +640,7 @@ p{
   min-height: 500px;
   border-radius: 30px;
 }
-.book-img{
+.back-img{
   background-position: center;
   background-size: cover;
 }
@@ -743,7 +743,7 @@ p{
   margin-right: 0;
 }
 .social-icon ul li:first-child{
-  margin-right: 0;
+  margin-left: 0;
 }
 .social-icon ul li a{
   width: 50px;
@@ -764,17 +764,19 @@ p{
   color: #ffffff !important;
 }
 /*============================TESTIMONIAL================================*/
-.testimonials-img{
+.testimonials-img {
   position: relative;
 }
-.testimonials-img img{
+
+.testimonials-img img {
   position: absolute;
   top: 60px;
   right: 30px;
   width: calc(100% + 5vw);
   max-width: initial;
 }
-.testimonials-box{
+
+.testimonials-box {
   display: flow-root;
   position: relative;
   padding: 30px;
@@ -785,50 +787,79 @@ p{
   box-shadow: 28px 28px 45px #e6e6e6, -28px -28px 45px #ffffff;
   transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
 }
-.testimonials-box:hover{
+
+.testimonials-box:hover {
   transform: scale(1.05);
   z-index: 2;
 }
-.testimonials-box-top{
+
+.testimonial-box-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
 }
-.testimonials-box-img{
+
+.testimonials-box-img {
   min-width: 100px;
   min-height: 100px;
   border-radius: 50%;
   margin-top: -50px;
   box-shadow: 10px 10px 60px #d4d4d4;
 }
-.testimonials-box-text .h3-title{
+
+.testimonials-box-text .h3-title {
   margin-bottom: 10px;
   text-transform: capitalize;
 }
-.testimonials-box-text p{
+
+.testimonials-box-text p {
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.star-rating-wp{
+.star-rating-wp {
   display: block;
 }
-.star-rating{
+
+.star-rating {
   font-size: 22px;
   position: relative;
   margin-top: 20px;
   display: inline-block;
 }
-.star-rating::before{
-  content: "＼f005＼f005＼f005＼f005＼f005";
+
+.star-rating::before {
+  content: "\f005\f005\f005\f005\f005";
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   color: #c8c8c8;
   filter: drop-shadow(0 0.6rem 0.3rem rgba(0, 0, 0, 0.05));
   letter-spacing: 4px;
+}
+
+.star-rating__fill {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  animation: fill-star 2s ease-in-out;
+}
+
+.star-rating__fill::after {
+  content: "\f005\f005\f005\f005\f005";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  color: #ff8243;
+  letter-spacing: 4px;
+}
+@keyframes fill-star {
+  0% {
+      width: 0;
+  }
 }
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
