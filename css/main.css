@@ -1421,4 +1421,89 @@ p{
   .sec-text{
     margin-top: 40px;
   }
+  .call-now{
+    border: none;
+    margin: 40px 0;
+    border-top: 3px dotted rgb(13 13 37 /50%);
+    border-bottom: 3px dotted rgb(13 13 37 /50%);
+    padding: 30px 0;
+  }
+  .book-table-info{
+    max-width: 300px;
+    margin: 30px auto 0;
+  }
+  .swiper-button-wp .swiper-button{
+    display: none !important;
+  }
+  .testimonials-img img{
+    position: unset;
+    width: 100%;
+  }
+  .testimonials-img{
+    margin-bottom: 60px;
+  }
+  .faq-row{
+    column-count: 1;
+    margin: 0;
+  }
+  .newsletter-box{
+    padding: 40px;
+  }
+  .footer-info{
+    margin-bottom: 50px;
+  }
+  .footer-flex-box{
+    display: block;
+    margin: 0;
+  }
+  .footer-flex-box>div{
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .faq-box{
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .footer-flex-box>div:last-child{
+    margin: 0;
+  }
+  .scrolltop{
+    bottom: 130px;
+  }
+  .footer-menu ul{
+    max-width: 300px;
+  }
+  #gallery{
+    padding-top: 90px;
+  }
+  .swiper-pagination-bullet{
+    margin: 0 5px !important;
+    width: 8px;
+    height: 8px;
+  }
+  .swiper-pagination{
+    padding: 6px 20px;
+  }
+  .swiper-button-wp{
+    margin-top: 40px;
+  }
+  .swiper-pagination-bullet-active{
+    width: 16px;
+  }
+  .dish-title .h3-title{
+    display: block;
+    min-height: auto;
+    margin-bottom: 12px;
+  }
+  .menu-img{
+    width: 180px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+  }
+  #js-scroll-content{
+    transform: unset !important;
+  }
+  body{
+    height: auto !important;
+  }
 }
