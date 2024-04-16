@@ -1314,8 +1314,70 @@ p{
     font-size: 25px;
   }
 }
-@media (min-width: 2100px) {
-  
+@media (min-width: 1999px) {
+  .main-banner{
+    padding: 200px 0;
+  }
+  .banner-img-wp{
+    height: 360px;
+  }
+  .dish-box{
+    padding: 0 0 40px;
+  }
+  .dist-img img{
+    width: 220px;
+  }
+  .dist-img{
+    margin-top: -110px;
+  }
+  .dist-bottom-row ul li b{
+    font-size: 28px;
+  }
+  .sec-text{
+    padding: 0;
+  }
+  .team-img{
+    height: 340px;
+  }
+  .testimonial-box{
+    padding: 30px 20px;
+    margin: 26px 0 30px;
+  }
+  .testimonials-box-img{
+    min-width: 80px;
+    min-height: 80px;
+    margin-top: -80px;
+  }
+  .faq-box .h4-title{
+    padding: 16px 20px;
+  }
+  .faq-box p{
+    padding: 8px 20px 20px;
+  }
+  .blog-img{
+    height: 240px;
+  }
+  .newsletter-box-text{
+    padding: 0;
+  }
+  .footer-flex-box>div{
+    padding: 0 10px;
+  }
+  .star-rating{
+    font-size: 19px;
+  }
+  .testimonial-box-top{
+    margin-bottom: 10px;
+  }
+  .call-now a{
+    font-size: 28px;
+  }
+  .menu-box{
+    padding: 50px 20px 30px 20px;
+  }
+  .menu-img{
+    width: 140px;
+  }
 }
 @media (min-width: 2100px) {
   
