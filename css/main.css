@@ -977,7 +977,21 @@ p{
 .sec-btn.primary-btn:hover{
   background: linear-gradient(145deg, #0c0c21, #0e0e28);
 }
-/*============================MEDIA================================*/
+/*============================FOOTER================================*/
+.top-footer, .bottom-footer{
+  border-top: 1px solid rgb(204 204 204 / 40%);
+  position: relative;
+}
+.footer-logo{
+  margin-bottom: 30px;
+}
+.footer-info .social-icon{
+  margin-top: 20px;
+}
+.footer-flex-info{
+  display: flex;
+  margin: 0 -10px;
+}
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
 /*============================MEDIA================================*/
