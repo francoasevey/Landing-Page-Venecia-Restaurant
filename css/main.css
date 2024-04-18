@@ -1228,7 +1228,7 @@ p{
     box-shadow: 0px 10px 55px #d4d4d4;
   }
   .site-header.sticky_head, .site-header{
-    background: rgb(255, 255, 255 / 90%);
+    background: rgb(255 255 255 / 90%);
   }
   body{
     height: auto !important;
@@ -1255,7 +1255,7 @@ p{
 }
 @media screen and (min-width: 992px) {
   #viewport {
-      overflow-x: hidden;
+      overflow: hidden;
       position: fixed;
       height: 100%;
       width: 100%;
@@ -1287,7 +1287,7 @@ p{
     line-height: 32px;
   }
 }
-@media (min-width: 1399px) {
+@media (max-width: 1399px) {
   .h1-title{
     font-size: 80px;
     line-height: 90px;
@@ -1314,7 +1314,7 @@ p{
     font-size: 25px;
   }
 }
-@media (min-width: 1999px) {
+@media (max-width: 1999px) {
   .main-banner{
     padding: 200px 0;
   }
@@ -1379,7 +1379,7 @@ p{
     width: 140px;
   }
 }
-@media (min-width: 991px) {
+@media (max-width: 991px) {
   .js-parallax-scene{
     display: none;
   }
