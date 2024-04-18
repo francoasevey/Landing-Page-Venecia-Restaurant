@@ -2,3 +2,5 @@
 HTML-CSS-PHP
 
 deploy: https://landing-page-venecia-restaurant.vercel.app/
+
+<img src="background.gif">
